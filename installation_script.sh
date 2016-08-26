@@ -35,8 +35,9 @@ mkdir project
 
 cd software/
 mkdir C-Cpp
-mkdir JavaLike
+mkdir Java
 mkdir Python
+mkdir Scala
 
 cd ../project
 mkdir C-Cpp
@@ -49,24 +50,24 @@ cd
 wget https://download.jetbrains.com/idea/ideaIC-2016.2.1.tar.gz
 tar -xf ideaIC*.tar.gz
 rm ideaIC*.tar.gz
-mv idea-IC-* Programming/software/JavaLike
+mv idea-IC-* Programming/software/Java
 
 wget https://launchpad.net/ubuntu/+archive/primary/+files/libgcrypt11_1.5.3-2ubuntu4.2_amd64.deb
 sudo dpkg -i libgcrypt11_1.5.3-2ubuntu4.2_amd64.deb
 rm libgcrypt11_1.5.3-2ubuntu4.2_amd64.deb
 
-
+#From internet - Reduce consume CPU Consume of Gala process- Also work for me
 sudo apt-get install —no-install-recommends mutter
 
-
+#Eclipse
 wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/mars/2/eclipse-java-mars-2-linux-gtk-x86_64.tar.gz
 tar -xf eclipse-java-mars-2-linux-gtk-x86_64.tar.gz
-mv eclipse Programming/software/JavaLike/
+mv eclipse Programming/software/Java/
 rm eclipse-java-mars-2-linux-gtk-x86_64.tar.gz
 
-
-
-
-
-
-
+cd
+#Scala IDE
+cd ./Programming/software/Scala
+wget http://downloads.typesafe.com/scalaide-pack/4.4.1-vfinal-luna-211-20160504/scala-SDK-4.4.1-vfinal-2.11-linux.gtk.x86_64.tar.gz
+tar -xf scala-SDK-4.4.1-vfinal-2.11-linux.gtk.x86_64.tar.gz
+rm scala-SDK-4.4.1-vfinal-2.11-linux.gtk.x86_64.tar.gz
