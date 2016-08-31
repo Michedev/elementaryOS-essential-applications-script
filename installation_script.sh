@@ -13,7 +13,7 @@ sudo apt update
 
 
 #Software
-sudo apt install -y firefox menulibre thunderbird steam transmission gimp pcsxr winetricks gradle
+sudo apt install -y firefox menulibre thunderbird steam transmission gimp pcsxr winetricks gradle bleachbit
 
 
 
@@ -71,3 +71,17 @@ cd ./Programming/software/Scala
 wget http://downloads.typesafe.com/scalaide-pack/4.4.1-vfinal-luna-211-20160504/scala-SDK-4.4.1-vfinal-2.11-linux.gtk.x86_64.tar.gz
 tar -xf scala-SDK-4.4.1-vfinal-2.11-linux.gtk.x86_64.tar.gz
 rm scala-SDK-4.4.1-vfinal-2.11-linux.gtk.x86_64.tar.gz
+
+
+
+#Printer driver
+cd
+cd ./Scaricati
+wget http://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=US&CttFileID=6285092&CDCttType=DR&ModelType=C&ModelName=SL-M2020W/XAA&VPath=DR/201510/20151028115008613/uld_v1.00.36_00.91.tar.gz
+tar -xf uld_v1.00.36_00.91.tar.gz
+rm uld_v1.00.36_00.91.tar.gz
+cd uld
+echo "Run in terminal with root install-printer.sh" > Instructions
+
+
+
