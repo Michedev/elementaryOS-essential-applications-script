@@ -7,13 +7,15 @@ cd
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:noobslab/themes
 sudo add-apt-repository -y ppa:noobslab/icons
+sudo add-apt-repository -y ppa:graphics-drivers/ppa
+
 
 
 sudo apt update
 
 
 #Software
-sudo apt install -y firefox menulibre thunderbird steam transmission gimp pcsxr winetricks gradle bleachbit
+sudo apt install -y firefox menulibre thunderbird steam transmission gimp pcsxr winetricks bleachbit synaptic rhythmbox
 
 
 
@@ -83,5 +85,32 @@ rm uld_v1.00.36_00.91.tar.gz
 cd uld
 echo "Run in terminal with root install-printer.sh" > Instructions
 
+#Pycharm
+cd
+cd ./Programming/software/Python
+wget https://download.jetbrains.com/python/pycharm-professional-2016.2.2.tar.gz
+tar -xf pycharm-professional-2016.2.2.tar.gz
 
+
+cd
+cd ./Documenti
+echo "Per installare i temi della Plank bisogna mettere le cartelle del tema in /home/NomeUtente/.local/share/plank/themes/ oppure in /usr/share/plank/themes/ \n
+Successivamente dal dconf-editor andare nella sezione della plankbar (net -> launchpad -> plank -> docks -> dock1) e cercare la voce del tema: essa va rinominata col nome della cartella del tema.\n
+Mio tema Preferito: PantheonVetro" > come-installare-temi-plankbar.txt
+
+#SDKMAN
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+#Kotlin-Lang
+sdk i kotlin
+
+#Scala-Lang
+sdk i scala
+
+#Gradle
+sdk i gradle
+
+#Maven
+sdk i maven
 
