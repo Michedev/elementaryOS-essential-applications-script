@@ -8,6 +8,7 @@ sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:noobslab/themes
 sudo add-apt-repository -y ppa:noobslab/icons
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
+sudo add-apt-repository -y ppa:philip.scott/elementary-tweaks
 
 
 
@@ -15,7 +16,7 @@ sudo apt update
 
 
 #Software
-sudo apt install -y firefox menulibre thunderbird steam transmission gimp pcsxr winetricks bleachbit synaptic rhythmbox
+sudo apt install -y firefox menulibre thunderbird steam transmission gimp pcsxr winetricks bleachbit synaptic rhythmbox elementary-tweaks
 
 
 
